@@ -6,6 +6,7 @@
 ## NOTE the $1 variable no longer outputs the currently logged in user,
 ## we get around this by invoking the "id" command
 ##
+###github test changes
 # Refresh the ker 
 ## Set the $usrname variable
 usrname=$(/usr/bin/id -P | awk -F: '{ print $1 }')
